@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app_header">
+            <h2>TIC-TAC-TOE</h2>
+           
+        </div>
+        <div class="app_content">
+            <div class="properties">
+                <label for="length">PLEASE SET </label>
+                <input type="number" min="3" max="8" value="3" class="length" id="length">
+                <select name="" id="select">
+                    <option value="X" id="X">X player</option>
+                    <option value="O" id="O">O player</option>
+                </select>  
+
+            </div>
+           
+            <div class="game" id="game">
+                <h2 id="win_player"><span class="result" id="result"></span></h2>
+                <input type="submit"  class="start" id="start" value="START NEW GAME" > 
+            </div>       
+        </div>
+        <div class="app_footer">
+            <div class="time-left"></div>
+            <input type="submit" value="RESET THE GAME", id="reset" class="reset hide">            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

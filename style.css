@@ -1,0 +1,112 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    transition: .3s linear;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app{
+    height: 60vh;
+    width: 80%;
+    text-align: center;
+
+}
+
+.app .app_header{
+    margin-bottom: .6rem;
+}
+
+
+.app_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.properties {
+    position: absolute;
+    top: 10%;
+    font-size: 1.5rem;
+}
+
+.length {
+    height: 1.8rem;
+    font-size: 1.2rem;
+    margin-right: .8rem;
+}
+
+select {
+    height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.game{
+    height: 30rem;
+    width: 30rem;
+    background-color: #90EE90;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start{
+    margin-top: 4rem;
+    cursor: pointer;
+    background-color: bisque;
+    color: darkslategrey;
+  
+    width: 14rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.start:hover {
+    background-color: darkslategrey;
+    color: bisque;
+}
+
+.hide {
+    display: none!important;
+}
+
+.table {
+    height: 90%;
+    width: 90%;
+}
+
+td {
+    background-color: darkseagreen;
+    cursor: pointer;
+    font-size:  400%;
+    color: #ffff14;
+    ;
+}
+
+.reset {
+    width: 15rem;
+    background-color: darkslategrey;
+    color: bisque;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: bisque;
+    color: darkslategrey;
+}
+
